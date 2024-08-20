@@ -1,2 +1,3 @@
-# terraform-tfstate-store-s3-and-locking
-Provisioning an EC2 instance with Terraform, the project stores the state file in an AWS S3 bucket, with state locking managed by DynamoDB.
+# Automated EC2 Setup with Terraform: tfstate file Storage in s3 and DynamoDB Locking
+This project automates the provisioning of an EC2 instance using Terraform. Changes are applied from the local machine, with the Terraform state file stored in an AWS S3 bucket. To ensure consistency and prevent conflicts, state locking is managed using DynamoDB.
+
